@@ -1,3 +1,4 @@
+import 'package:api_paginate_example/getx_pagination/getx_pagenate_view.dart';
 import 'package:api_paginate_example/pages/paginate_example2.dart';
 import 'package:api_paginate_example/pages/practice.dart';
 import 'package:flutter/material.dart';
@@ -20,7 +21,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: Practice2(),
+      home: GetXPaginateView(),
     );
   }
 }
